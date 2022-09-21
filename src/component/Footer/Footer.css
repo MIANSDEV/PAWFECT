@@ -1,0 +1,60 @@
+.main-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #CAB19B;
+    height: 12rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+}
+.f_logo{
+    height: 5rem;
+    padding-top: 20px;
+    grid-column: 2/3;
+   
+}
+.text{
+    font-size: 12px;
+    grid-column: 2/4 ;
+    font-family: 'Hind', sans-serif;
+    color: #ffffff;
+    
+}
+.copy-right{
+ 
+font-size: 12px;
+grid-column: 2/4;
+color: red;
+
+
+}
+@media only screen and (max-width: 600px) {
+    .main-footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #CAB19B;
+        height: 30rem;
+        display: grid;
+      grid-template-columns: 1rem 4fr 1fr 1fr 1 ;
+    }
+    .f_logo{
+        height: 3rem;
+        grid-column: 2/3;
+       
+    }
+    .text{
+        
+        
+        font-size: 14px;
+        grid-column: 2/4 ;
+        font-family: 'Hind', sans-serif;
+        color: #ffffff;
+    }    
+    .copy-right{
+        font-size: 12px;
+        grid-column: 2/4;
+        color: #ffffff;
+        
+        }
+  }

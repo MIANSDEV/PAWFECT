@@ -1,0 +1,64 @@
+.main_card {
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 15px 43px -5px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+  }
+  .main_card:hover
+  {
+    transition: scale(1.5);
+    box-shadow: 0px 8px 12px ;
+    border: 1px solid #cccccc;
+    
+  }
+  .card_img {
+    width: 165px;
+    height: 165px;
+    padding: 5px;
+    object-fit: contain;
+    
+  }
+  
+  .description {
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .bt_text {
+    width: 94px;
+    height: 24px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  .card_bt button {
+    margin:2rem;
+    padding: 2px;
+    height: 40px;
+    width: 154px;
+    border-color: #8c5638;
+    background: #8c5638;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .MdShoppingCart
+  {
+   margin-bottom: -5px;
+   font-size: 20px;
+  
+  
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import Footer_logo from "../../img/Mians.png";
+import Footer_logo from "../../images/Mians.png";
 import {MdOutlineCopyright} from "react-icons/md"
 import "./Footer.css";
 

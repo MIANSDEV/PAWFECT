@@ -1,0 +1,9 @@
+.main_itemcardlist {
+  display: flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.itemcard {
+  margin: 2rem;
+}

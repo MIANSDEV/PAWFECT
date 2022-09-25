@@ -1,7 +1,7 @@
 import React from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { HiShoppingCart } from "react-icons/hi";
-import Logo from "../../img/logo.png";
+import Logo from "../../images/logo.png";
 import "./NavBar.css";
 
 function NavBar() {

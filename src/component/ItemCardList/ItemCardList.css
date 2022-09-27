@@ -1,6 +1,6 @@
 .main_itemcardlist {
   display: flex;
-  vertical-align: middle;
+ justify-content: center;
   flex-wrap: wrap;
   margin: 2rem;
 }

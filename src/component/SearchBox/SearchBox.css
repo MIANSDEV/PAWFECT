@@ -1,0 +1,19 @@
+.searchbox
+{
+    width: 323px;
+    height: 40px;
+    border-radius: 20px;
+    background-image:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png');
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+
+    
+    
+}
+.main_searchbox
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+.main_checkboxlist
+{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.checkboxlist{
+    margin:2rem;
+}

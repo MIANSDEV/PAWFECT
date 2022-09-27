@@ -1,6 +1,10 @@
 {
     "cSpell.ignoreWords": [
         "itemcard",
-        "itemcardlist"
+        "itemcardlist",
+        "maindiv"
+    ],
+    "cSpell.words": [
+        "checkboxlist"
     ]
 }

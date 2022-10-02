@@ -1,6 +1,6 @@
 .main_shoppingcartheader
 {
-   
+   width: 100%;
    
 border-radius: 9px;
   
@@ -8,13 +8,13 @@ border-radius: 9px;
   margin: 0.5rem;
   border-radius: 0.5rem;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 .shoppingcart-icon
 {
     width: 28.5px;
     height: 26.67px;
-    font-size: 18px;
+    font-size: 30px;
     padding-left: 2px
 }
 .shoppingcart-title
@@ -27,10 +27,29 @@ height: 24px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 25px;
 line-height: 100%;
 
 text-align: center;
 
 color: #000000;
+}
+.no_item
+{
+ 
+ display: flex;
+ 
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+ margin-top: -1rem;
+ margin-left: -1rem;
+  border-radius: 60%;
+  background: red;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
 }

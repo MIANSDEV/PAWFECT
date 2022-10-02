@@ -1,6 +1,5 @@
 .shoppingcart
-{    width: 100%;
-    height: 675px;
+{    width: 400px;
     background-color: #FFF1DC;
     display: flex;
     justify-self: center;

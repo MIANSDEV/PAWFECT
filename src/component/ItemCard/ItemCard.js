@@ -5,6 +5,7 @@ import {MdOutlineAddShoppingCart} from "react-icons/md"
 
 
 const ItemCard = ({image,name,price}) => {
+ 
     
   return (
     <div className="main_card">
@@ -16,7 +17,7 @@ const ItemCard = ({image,name,price}) => {
         <h3>{price}/- </h3>
       </div>
       <div className="card_bt">
-        <button><span className="bt_text">Add to Cart <MdOutlineAddShoppingCart className="MdShoppingCart" /></span>  </button>
+        <button ><span className="bt_text">Add to Cart <MdOutlineAddShoppingCart className="MdShoppingCart" /></span>  </button>
       </div>
     </div>
   );

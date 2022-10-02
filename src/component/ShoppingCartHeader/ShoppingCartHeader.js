@@ -9,7 +9,9 @@ const ShoppingCartHeader = () => {
         <h3>Shopping Cart</h3>
         </div>
         <div className='shoppingcart-icon'>
+        <p className='no_item'>7</p>
             <FiShoppingBag/>
+            
         </div>
        
     </div>

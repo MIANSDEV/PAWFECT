@@ -1,10 +1,10 @@
-.main_checkboxlist
-{
+.main_categorylist {
     display: flex;
     justify-content: center;
     margin: 2rem;
     flex-wrap: wrap;
-}
-.checkboxlist{
-    margin:2rem;
-}
+  }
+  .categorylist {
+    margin: 2rem;
+  }
+  

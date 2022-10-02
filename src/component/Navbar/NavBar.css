@@ -23,9 +23,9 @@
   
   .main-nav {
     width: 100%;
-    height: 10rem;
+    height: 64px;
     display: grid;
-    background-color: #8c5638;
+    background-color: #61C3E2;
     grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
   }
   
@@ -36,6 +36,7 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
+    padding-bottom: 3rem;
   }
   
   .s-icon {
@@ -44,6 +45,7 @@
     display: grid;
     grid-template-columns: 10fr;
     align-items: center;
+    padding-bottom: 2rem;
   }
   
   .s-icon li {
@@ -102,34 +104,33 @@
   /* responsive css style  */
   @media (max-width: 998px) {
     .main-nav {
+      
       height: 7rem;
       grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
     }
   
     .logo,
     .s-icon {
+      
       height: 7rem;
     }
   
     .s-icon {
+     
+     
+      padding: 3.5rem;
       grid-row: 1/2;
       grid-column: 3/5;
       justify-items: end;
       align-items: center;
       transition: all 2s linear;
     }
-  
-    .s-icon .s-icon-desktop {
-      height: 0;
-      display: none;
-    }
-  
-    .social-media {
-      height: 7rem;
-      display: flex;
-      justify-self: end;
-      align-items: center;
-    }
+ 
+    
+  .icon{
+    display: none;
+  }
+    
   }
   
   @media (max-width: 798px) {
@@ -143,12 +144,7 @@
       height: 6rem;
     }
   
-    .social-media {
-      height: 6rem;
-      display: flex;
-      justify-self: end;
-      align-items: center;
-    }
+    
   }
   
   @media (max-width: 520px) {
@@ -166,11 +162,6 @@
       font-size: 2rem;
     }
   
-    .social-media {
-      height: 6rem;
-      display: flex;
-      justify-self: end;
-      align-items: center;
-    }
+   
   }
   

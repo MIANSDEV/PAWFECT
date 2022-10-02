@@ -8,6 +8,7 @@ const data = {
       id: 1,
       name: "Pedigree Puppy Dry Dog Food Chicken and Milk",
       slug: "cat-food",
+      emoji:"😺",
       category: "Cat Food",
       image: CatFood1, // 679px × 829px
       price: 1200,
@@ -19,6 +20,7 @@ const data = {
       id: 2,
       name: "Pedigree Puppy Dry Dog Food Chicken and Milk",
       slug: "bird-food",
+      emoji:"🦜",
       category: "Bird Food",
       image: CatFood2,
       price: 1200,
@@ -31,15 +33,14 @@ const data = {
       name: "Pedigree Puppy Dry Dog Food Chicken and Milk",
       slug: "dog-food",
       category: "Dog Food",
+      emoji:"🐶",
       image: CatFood3,
       price: 1200,
       countInStock: 20,
       brand: "Hills Science Diet",
       description: "Pedigree Puppy Dry Dog Food Chicken and Milk",
     },
- 
 
-    
     /*{
         name: 'Adidas Fit Pant',
         slug: 'adidas-fit-pant',

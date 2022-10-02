@@ -1,11 +1,12 @@
 import React from 'react'
 import "./SearchBox.css"
-import {VscSearch} from "react-icons/vsc"
+
 
 const SearchBox = () => {
   return (
     <div className='main_searchbox'>
-        <input class="searchbox" type="search" placeholder="Search..."></input>
+      <p className='text'>Find the perfect products for your loved ones</p>
+        <input class="searchbox" type="search" placeholder="Search your products here"></input>
     </div>
   )
 }

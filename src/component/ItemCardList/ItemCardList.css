@@ -1,6 +1,6 @@
 .main_itemcardlist {
   display: flex;
- justify-content: center;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 2rem;
 }

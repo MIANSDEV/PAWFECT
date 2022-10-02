@@ -4,6 +4,7 @@ import{FiShoppingBag} from 'react-icons/fi'
 
 const ShoppingCartHeader = () => {
   return (
+    <>
     <div className='main_shoppingcartheader'>
         <div className='shoppingcart-title'>
         <h3>Shopping Cart</h3>
@@ -13,10 +14,14 @@ const ShoppingCartHeader = () => {
             <FiShoppingBag/>
             
         </div>
-       
+
+        
     </div>
+    <div>
+    <p className='items_count'>7 Items</p>
+  </div>
     
-    
+  </>
   )
 }
 

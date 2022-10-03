@@ -1,10 +1,11 @@
 import React from "react";
 import ShoppingCartList from "../component/ShoppingCartList/ShoppingCartList";
 import data from "../component/Data/Data";
+import './Cart.css'
 
 const Cart = () => {
   return (
-    <div>
+    <div className="main-cart">
       {data.products.map((product) => (
         <ShoppingCartList
           name={product.name}

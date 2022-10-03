@@ -1,6 +1,7 @@
 .cart-item-container {
   width: 100%;
   padding: 1rem;
+
 }
 .item-info {
   width: 100%;
@@ -20,6 +21,7 @@
 .cart-title p {
     font-weight: 300;
 font-size: 10px;
+line-height: 15px;
 padding-left: 1.5rem;
 display: flex;
   justify-content: center;

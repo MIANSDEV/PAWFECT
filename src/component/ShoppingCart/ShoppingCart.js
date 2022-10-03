@@ -1,15 +1,15 @@
-import React from 'react'
-import ShoppingCartHeader from '../ShoppingCartHeader/ShoppingCartHeader.js'
-import ShoppingCartList from '../ShoppingCartList/ShoppingCartList.js'
-import './ShoppingCart.css'
+import React from "react";
+import Cart from "../../Cart/Cart.js";
+import ShoppingCartHeader from "../ShoppingCartHeader/ShoppingCartHeader.js";
+import "./ShoppingCart.css";
 
 const ShoppingCart = () => {
   return (
-    <div className='shoppingcart'>
-        <ShoppingCartHeader/> 
-        <ShoppingCartList/>
+    <div className="shoppingcart">
+      <ShoppingCartHeader />
+      <Cart />
     </div>
-  )
-}
+  );
+};
 
-export default ShoppingCart
+export default ShoppingCart;

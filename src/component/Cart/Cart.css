@@ -1,0 +1,21 @@
+.main-cart {
+  max-height: 299px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: #f9e5a0;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: #61c3e2;
+  -webkit-box-shadow: #f9e5a0;
+}

@@ -1,0 +1,11 @@
+.main-addresslist {
+  color: #ffffff;
+}
+.main-addresslist p {
+  padding-top: 1rem;
+}
+.main-addresslist h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  width: 54%;
+}

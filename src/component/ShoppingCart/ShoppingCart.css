@@ -1,9 +1,14 @@
-.shoppingcart
-{    width: 350px;
-    background-color: #F9E5A0;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 1rem;
+.shoppingcart {
+  width: 355px;
+  background-color: #f9e5a0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+.main-shoppingcart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

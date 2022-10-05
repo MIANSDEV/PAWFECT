@@ -5,8 +5,10 @@
         "maindiv"
     ],
     "cSpell.words": [
+        "addresslist",
         "categorylist",
         "checkboxlist",
+        "deliveryinstruction",
         "shoppingcart",
         "shoppingcartheader",
         "shoppingcartlist"

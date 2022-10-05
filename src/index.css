@@ -13,13 +13,31 @@ code {
 }
 
 p{
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 22px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
 }
 h3{
-  font-size: 24px;
-  font-style: bold;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+}
+h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+}
+h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
 }

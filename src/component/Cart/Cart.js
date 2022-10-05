@@ -1,6 +1,6 @@
 import React from "react";
-import ShoppingCartList from "../component/ShoppingCartList/ShoppingCartList";
-import data from "../component/Data/Data";
+import ShoppingCartList from "../ShoppingCartList/ShoppingCartList";
+import data from "../Data/Data";
 import './Cart.css'
 
 const Cart = () => {

@@ -12,7 +12,7 @@ const GiftCard = () => {
       <h3>Gift cards, coupons <span onClick={()=>setApply(!apply)}>{apply ? "Apply" : "Cancel"}</span></h3>
       <div className={`gift-form-container ${apply && 'hidden'}`}>
         <form className="gift-form">
-        <input type="text" id="giftVoucher" name="giftVoucher" value="" className="gift-card-input"/>
+        <input type="text" id="giftVoucher" name="giftVoucher"  className="gift-card-input"/>
         <button><AiOutlineArrowRight className="arrow-icon"/></button>
         </form>
     </div>

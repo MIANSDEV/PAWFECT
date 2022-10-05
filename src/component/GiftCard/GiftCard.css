@@ -26,6 +26,14 @@
 height: 40px;
 padding-bottom: 1rem;
 background: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+
+
+color: #444545;
 
 border-radius: 6px;
   }

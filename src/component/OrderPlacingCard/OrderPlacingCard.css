@@ -1,0 +1,56 @@
+.order-placing-card-container
+{
+    background-color: #F9E5A0;
+    margin: 1rem;
+    padding: 1rem;
+    color: #444545;
+    border-radius: 8px;
+}
+.order-placing-card span
+{
+    font-size: 10px;
+    font-weight: 400;
+}
+.order-pricing
+{
+    padding-top: 1.5rem;
+    
+}
+.order-total-price
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.order-shipping-cost
+{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+.hr
+{
+    padding-top: 1rem;
+}
+.total-amount-order
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+.placing-order-button
+{
+    margin: 1rem;
+    padding-top: 3rem;
+}
+.placing-order-button button
+{
+    width: 340px;
+height: 38px;
+background: #2A4C68;
+border-radius: 10px;
+border-color: #2A4C68;
+color: #ffffff;
+}

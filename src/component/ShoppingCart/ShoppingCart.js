@@ -1,6 +1,7 @@
 import React from "react";
 import AddressCard from "../AddressCard/AddressCard.js";
 import Cart from "../Cart/Cart.js";
+import GiftCard from "../GiftCard/GiftCard.js";
 import PaymentMethod from "../PaymentMethod/PaymentMethod.js";
 import ShoppingCartFooter from "../ShoppingCartFooter/ShoppingCartFooter.js";
 import ShoppingCartHeader from "../ShoppingCartHeader/ShoppingCartHeader.js";
@@ -17,6 +18,7 @@ const ShoppingCart = () => {
       <div className="left-shipping-card">
       <AddressCard />
       <PaymentMethod/>
+      <GiftCard/>
       </div>
     </div>
   );

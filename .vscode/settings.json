@@ -8,7 +8,12 @@
         "addresslist",
         "categorylist",
         "checkboxlist",
+        "Cuppon",
+        "cupponformcard",
         "deliveryinstruction",
+        "giftvoucher",
+        "handleapply",
+        "handleclick",
         "shoppingcart",
         "shoppingcartheader",
         "shoppingcartlist"

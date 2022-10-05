@@ -1,0 +1,45 @@
+.main-gift-card-container{
+    background-color: #2A4C68;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+}
+.main-gift-card-container span
+{
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gift-form-container
+{
+    padding-top: 1rem;
+   
+   
+}
+.gift-form
+{
+    display: flex;
+}
+.gift-card-input {
+    width: 80%;
+height: 40px;
+padding-bottom: 1rem;
+background: #FFFFFF;
+
+border-radius: 6px;
+  }
+  .gift-form button
+  {
+    width: 40px;
+    height: 40px;
+    background: #61C3E2;
+    border-color: #61C3E2;
+    border-radius: 6px;
+    
+  }
+  .arrow-icon
+  {
+    color:#ffffff;
+    font-size: 25px;
+  }

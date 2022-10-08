@@ -1,5 +1,6 @@
 .main_card {
-  width: 250px;
+  width: 328px;
+  height: 300px;
   align-items: center;
   text-align: center;
   background: #ffffff;
@@ -16,6 +17,10 @@
   height: 165px;
   padding: 5px;
   object-fit: contain;
+}
+.image-card
+{
+  height: 165px;
 }
 
 .description {
@@ -42,16 +47,17 @@
   color: #ffffff;
 }
 .card_bt button {
-  margin: 2rem;
   padding: 2px;
   height: 40px;
   width: 154px;
-  border-color: #61C3E2;
-  background: #61C3E2;
+  border-color: #61c3e2;
+  background: #61c3e2;
   text-align: center;
   border-radius: 8px;
 }
-
+.price {
+  padding: 1rem;
+}
 .MdShoppingCart {
   margin-bottom: -5px;
   font-size: 20px;

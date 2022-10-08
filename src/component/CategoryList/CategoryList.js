@@ -1,12 +1,12 @@
 import React from "react";
-import data from "../Data/Data";
+import {category} from "../Data/Data";
 import Category from "../Category/Category.js";
 import "./CategoryList.css";
 
 const CheckBoxList = () => {
   return (
     <div className="main_categorylist">
-      {data.products.map((product) => (
+      {category.map((product) => (
         <div className="categorylist">
           <Category category={product.category} emoji={product.emoji} slug={product.slug} />
         </div>

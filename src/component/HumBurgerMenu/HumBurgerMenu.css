@@ -1,0 +1,47 @@
+.mobile-menu-logo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 2rem;
+}
+.mobile-menu-icon {
+  grid-column: 5/5;
+
+  display: grid;
+
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.main-burger-menu-container {
+  width: 100%;
+  display: grid;
+  background-color: #61c3e2;
+  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+}
+.first-title {
+  font-size: 30px;
+  color: #2a4c68;
+}
+.second-title {
+  font-size: 25px;
+  color: #f9e5a0;
+}
+.main-menu-humburger {
+  grid-column: 5/5;
+
+  display: grid;
+  grid-template-columns: 10fr;
+  align-items: center;
+  justify-items: center;
+  font-size: 30px;
+}
+.first-icn {
+  color: #ffffff;
+}
+.second-icn {
+  color: #ffffff;
+}

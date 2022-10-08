@@ -6,21 +6,17 @@
   padding: 2rem;
 }
 .mobile-menu-icon {
-  grid-column: 5/5;
-
-  display: grid;
-
+  display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 25px;
   color: #ffffff;
 }
 
 .main-burger-menu-container {
   width: 100%;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   background-color: #61c3e2;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
 .first-title {
   font-size: 30px;
@@ -31,17 +27,25 @@
   color: #f9e5a0;
 }
 .main-menu-humburger {
-  grid-column: 5/5;
-
-  display: grid;
-  grid-template-columns: 10fr;
-  align-items: center;
-  justify-items: center;
+  background-color: white;
+  right: 0;
+  padding: 1rem;
   font-size: 30px;
+  position: absolute;
+  margin-top: 6.5rem;
 }
 .first-icn {
-  color: #ffffff;
+  color: grey;
+  font-size: 2rem;
 }
 .second-icn {
-  color: #ffffff;
+  color: grey;
+  font-size: 2rem;
+}
+.text-icon-cart {
+  font-size: 3rem;
+  padding: 1rem;
+}
+.text-main-icon-cart {
+  font-size: 2rem;
 }

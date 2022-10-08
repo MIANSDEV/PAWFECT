@@ -35,17 +35,23 @@
   margin-top: 6.5rem;
 }
 .first-icn {
-  color: grey;
+  color: #444545;
   font-size: 2rem;
 }
 .second-icn {
-  color: grey;
+  color: #444545;
   font-size: 2rem;
 }
 .text-icon-cart {
   font-size: 3rem;
   padding: 1rem;
+  color: #444545;
 }
 .text-main-icon-cart {
   font-size: 2rem;
+  color: #444545;
+}
+hr {
+  margin-top: 0.5rem;
+  background-color: #444545;
 }

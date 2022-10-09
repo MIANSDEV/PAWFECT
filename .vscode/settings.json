@@ -1,21 +1,31 @@
 {
-    "cSpell.ignoreWords": [
-        "itemcard",
-        "itemcardlist",
-        "maindiv"
-    ],
-    "cSpell.words": [
-        "addresslist",
-        "categorylist",
-        "checkboxlist",
-        "Cuppon",
-        "cupponformcard",
-        "deliveryinstruction",
-        "giftvoucher",
-        "handleapply",
-        "handleclick",
-        "shoppingcart",
-        "shoppingcartheader",
-        "shoppingcartlist"
-    ]
+  "cSpell.ignoreWords": ["itemcard", "itemcardlist", "maindiv"],
+  "cSpell.words": [
+    "accountpassword",
+    "addresslist",
+    "Bogura",
+    "categorylist",
+    "checkboxlist",
+    "Cumilla",
+    "Cuppon",
+    "cupponformcard",
+    "deliveryinstruction",
+    "districtlist",
+    "editform",
+    "Feni",
+    "firstname",
+    "Gazipur",
+    "giftvoucher",
+    "handleapply",
+    "handleclick",
+    "Kafrul",
+    "lastname",
+    "Naogaon",
+    "phoneno",
+    "postalcode",
+    "shoppingcart",
+    "shoppingcartheader",
+    "shoppingcartlist",
+    "streetaddress"
+  ]
 }

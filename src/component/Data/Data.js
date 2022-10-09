@@ -258,3 +258,42 @@ export const shoppingCartList = [
     description: "high quality product",
   },
 ];
+
+export const district = [
+  {
+    district: "Select your District",
+  },
+  {
+    id: 1,
+    district: "Dhaka",
+  },
+  {
+    id: 2,
+    district: "Feni",
+  },
+
+  {
+    id: 3,
+    district: "Naogaon",
+  },
+  {
+    id: 4,
+    district: "Bogura",
+  },
+  {
+    id: 5,
+    district: "Khulna",
+  },
+  {
+    id: 6,
+    district: "Rajshahi",
+  },
+  {
+    id: 7,
+    district: "Cumilla",
+  },
+  {
+    id: 8,
+    district: "Gazipur",
+  },
+];

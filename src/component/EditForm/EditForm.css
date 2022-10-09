@@ -1,0 +1,46 @@
+.main-edit-form-container {
+  background: #f9e5a0;
+  border-radius: 32px;
+  width: 80%;
+  margin: 4rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+p {
+  padding: 1rem;
+}
+.checkbox-filed {
+  width: 21px;
+  height: 15px;
+  border-radius: 5px;
+}
+.main-checkbox-filed {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.select-tag {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+}
+.submit-button {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

@@ -29,12 +29,12 @@ const EditForm = () => {
   } = formData;
 
   const onChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: [e.target.value] });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
   const handleSubmit = (e) => {
     console.log(formData);
     e.preventDefault();
-    e.target.reset();
   };
 
   return (

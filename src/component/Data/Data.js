@@ -53,7 +53,46 @@ export const category = [
     description: "Pedigree Puppy Dry Dog Food Chicken and Milk",
   },
 ];
+export const amount = [
+  {
+    id: 2,
+    name: "Clean Plus Clumping litter for Cats (Lemon)",
+    slug: "bird-food",
+    emoji: "🦜",
+    category: "Bird",
+    image: CatFood2,
+    price: 1200,
+    delivery: 50,
+    countInStock: 20,
+    brand: "Hills Science Diet",
+    description: "Pedigree Puppy Dry Dog Food Chicken and Milk",
+  },
+  {
+    id: 3,
+    name: "Pedigree Puppy Dry Dog Food Chicken and Milk",
+    slug: "dog-food",
+    category: "Dog",
+    emoji: "🐶",
+    image: CatFood3,
+    price: 1200,
+    countInStock: 20,
+    brand: "Hills Science Diet",
+    description: "Pedigree Puppy Dry Dog Food Chicken and Milk",
+  },
 
+  {
+    name: "Adidas Fit Pant",
+    slug: "adidas-fit-pant",
+    category: "Pants",
+    image: "/images/p4.jpg",
+    price: 65,
+    countInStock: 5,
+    brand: "Puma",
+    rating: 4.5,
+    numReviews: 10,
+    description: "high quality product",
+  },
+];
 export const data = [
   {
     id: 1,

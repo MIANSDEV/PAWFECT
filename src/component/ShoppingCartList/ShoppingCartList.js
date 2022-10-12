@@ -23,11 +23,10 @@ const ShoppingCartList = ({ image, name, price }) => {
         <div className="add-minus-quantity">
           <BiMinus onClick={handleClick2} />
           <input type="text" placeholder="1" value={counter} />
-          {/* <i className="fas fa-plus add" onClick={handleClick1}></i> */}
           <BiPlus onClick={handleClick1} />
         </div>
         <div className="cart-price-tag">
-          <h3>{price}</h3>
+          <h3>{price * counter}</h3>
         </div>
       </div>
     </div>

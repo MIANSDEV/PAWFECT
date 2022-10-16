@@ -43,6 +43,7 @@ h1 {
 }
 .hidden {
   display: none;
+  overflow: hidden;
 }
 * {
   margin: 0;

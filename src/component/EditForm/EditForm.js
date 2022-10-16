@@ -137,6 +137,7 @@ const EditForm = () => {
               name="districtlist"
               value={districtlist}
               onChange={onChange}
+              required
             >
               {district.map((product) => (
                 <option value={product.district}>{product.district}</option>
@@ -154,8 +155,10 @@ const EditForm = () => {
               onChange={onChange}
             />
           </div>
-          <div className="submit-button">
-            <input type="submit" />
+          <div>
+            <button type="button" className="submit-button">
+              <h3>Create Account</h3>
+            </button>
           </div>
         </form>
       </div>

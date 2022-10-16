@@ -268,6 +268,7 @@ export const shoppingCartList = [
     image: CatFood2,
     price: 1200,
     countInStock: 20,
+    quantity: 1,
     brand: "Hills Science Diet",
     description: "Pedigree Puppy Dry Dog Food Chicken and Milk",
   },
@@ -279,6 +280,7 @@ export const shoppingCartList = [
     emoji: "🐶",
     image: CatFood3,
     price: 1200,
+    quantity: 1,
     countInStock: 20,
     brand: "Hills Science Diet",
     description: "Pedigree Puppy Dry Dog Food Chicken and Milk",
@@ -293,15 +295,13 @@ export const shoppingCartList = [
     countInStock: 5,
     brand: "Puma",
     rating: 4.5,
+    quantity: 1,
     numReviews: 10,
     description: "high quality product",
   },
 ];
 
 export const district = [
-  {
-    district: "Select your District",
-  },
   {
     id: 1,
     district: "Dhaka",

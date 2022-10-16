@@ -6,6 +6,7 @@
     "Bogura",
     "categorylist",
     "checkboxlist",
+    "couter",
     "Cumilla",
     "Cuppon",
     "cupponformcard",
@@ -18,6 +19,7 @@
     "giftvoucher",
     "handleapply",
     "handleclick",
+    "humburger",
     "Kafrul",
     "lastname",
     "Naogaon",
@@ -26,6 +28,7 @@
     "shoppingcart",
     "shoppingcartheader",
     "shoppingcartlist",
-    "streetaddress"
+    "streetaddress",
+    "totalprice"
   ]
 }

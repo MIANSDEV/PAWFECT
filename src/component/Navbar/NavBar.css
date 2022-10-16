@@ -18,6 +18,10 @@
   justify-content: start;
   padding: 2rem;
 }
+.sign-in {
+  display: flex;
+  justify-content: center;
+}
 
 .s-icon {
   grid-column: 5/5;

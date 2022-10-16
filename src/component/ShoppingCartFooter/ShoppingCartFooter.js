@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./ShoppingCartFooter.css";
 
-const ShoppingCartFooter = () => {
+const ShoppingCartFooter = ({ products }) => {
+  const [totalAmount, setTotalAmount] = useState();
+  const [shippingCost, setShippingCost] = useState(50);
+  const getTotalAmount = () => {
+    let totalPrice = 0;
+
+    products.map((product) => {
+      totalPrice += product.quantity * product.price;
+    });
+    setTotalAmount(totalPrice);
+  };
+  useEffect(() => {
+    getTotalAmount();
+  }, []);
   return (
     <div className="card-total">
       <div className="subtotal">
         <p>Subtotal</p>
-        <span className="amount">1200 Tk</span>
+        <span className="amount">{totalAmount} Tk</span>
       </div>
       <div className="shipping">
         <p>Delivery Charge</p>
-        <span className="amount">50 Tk</span>
+        <span className="amount">{shippingCost} Tk</span>
       </div>
       <div className="total">
         <p>Total</p>

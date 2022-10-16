@@ -30,13 +30,12 @@ const HumBurgerMenu = () => {
             </li>
           </Link>
           <hr />
-          <Link to={"/"}>
-            <li>
-              <FaUserCircle className="second-icn" />
-              <span className="text-icon-cart">|</span>
-              <span className="text-main-icon-cart"> Profile</span>
-            </li>
-          </Link>
+
+          <li>
+            <FaUserCircle className="second-icn" />
+            <span className="text-icon-cart">|</span>
+            <span className="text-main-icon-cart"> Profile</span>
+          </li>
         </ui>
       </div>
     </div>

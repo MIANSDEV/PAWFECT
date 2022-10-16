@@ -4,6 +4,7 @@ import Home from "./pages/Home.js";
 import ShoppingCart from "./component/ShoppingCart/ShoppingCart.js";
 import { Route, Routes } from "react-router-dom";
 import UserForm from "./pages/UserForm.js";
+import SignInModal from "./component/SignInModal/SignInModal.js";
 
 function App() {
   return (

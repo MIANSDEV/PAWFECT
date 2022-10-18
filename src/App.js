@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/checkout" element={<ShoppingCart />} />
-        <Route path="/editform" element={<UserForm />} />
+        <Route path="/userform" element={<UserForm />} />
       </Routes>
     </div>
   );

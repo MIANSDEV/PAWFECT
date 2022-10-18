@@ -4,7 +4,7 @@ import Cart from "../Cart/Cart.js";
 import GiftCard from "../GiftCard/GiftCard.js";
 import OrderPlacingCard from "../OrderPlacingCard/OrderPlacingCard.js";
 import PaymentMethod from "../PaymentMethod/PaymentMethod.js";
-import ShoppingCartFooter from "../ShoppingCartFooter/ShoppingCartFooter.js";
+//import ShoppingCartFooter from "../ShoppingCartFooter/ShoppingCartFooter.js";
 import ShoppingCartHeader from "../ShoppingCartHeader/ShoppingCartHeader.js";
 import "./ShoppingCart.css";
 import { shoppingCartList } from "../Data/Data.js";
@@ -15,7 +15,7 @@ const ShoppingCart = () => {
       <div className="shoppingcart">
         <ShoppingCartHeader />
         <Cart products={shoppingCartList} />
-        <ShoppingCartFooter products={shoppingCartList} />
+        {/* <ShoppingCartFooter products={shoppingCartList} /> */}
       </div>
       <div className="left-shipping-card">
         <AddressCard />

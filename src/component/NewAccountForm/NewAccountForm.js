@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./EditForm.css";
+import "./NewAccountForm.css";
 import { district } from "../Data/Data";
-const EditForm = () => {
+const NewAccountForm = () => {
   const [passwordShow, setPasswordShow] = useState(false);
   const [formData, setFormData] = useState({
     firstname: "",
@@ -195,4 +195,4 @@ const EditForm = () => {
   );
 };
 
-export default EditForm;
+export default NewAccountForm;

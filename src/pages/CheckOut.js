@@ -1,12 +1,12 @@
-import React from 'react'
-import ShoppingCart from "../component/ShoppingCart/ShoppingCart.js"
+import React from "react";
+import ShoppingCart from "../component/ShoppingCart/ShoppingCart.js";
 
 const CheckOut = () => {
   return (
     <>
-        <ShoppingCart/>
+      <ShoppingCart />
     </>
-  )
-}
+  );
+};
 
-export default CheckOut
+export default CheckOut;

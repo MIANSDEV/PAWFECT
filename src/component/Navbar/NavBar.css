@@ -8,7 +8,11 @@
   background-color: #61c3e2;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
-
+.modal {
+  display: flex;
+  justify-content: center;
+  transform: translateY(20rem);
+}
 .logo {
   display: grid;
   grid-column: 1/2;
@@ -17,10 +21,6 @@
   flex-direction: row;
   justify-content: start;
   padding: 2rem;
-}
-.sign-in {
-  display: flex;
-  justify-content: center;
 }
 
 .s-icon {

@@ -3,9 +3,12 @@
   "cSpell.words": [
     "accountpassword",
     "addresslist",
+    "Akhter",
     "Bogura",
     "categorylist",
     "checkboxlist",
+    "confirmaccountpassword",
+    "confirmpassword",
     "couter",
     "Cumilla",
     "Cuppon",
@@ -13,6 +16,8 @@
     "deliveryinstruction",
     "districtlist",
     "editform",
+    "enterkeyhint",
+    "Fect",
     "Feni",
     "firstname",
     "Gazipur",
@@ -20,15 +25,19 @@
     "handleapply",
     "handleclick",
     "humburger",
+    "Jani",
     "Kafrul",
     "lastname",
     "Naogaon",
     "phoneno",
     "postalcode",
+    "Rony",
+    "Saif",
     "shoppingcart",
     "shoppingcartheader",
     "shoppingcartlist",
     "streetaddress",
-    "totalprice"
+    "totalprice",
+    "userform"
   ]
 }

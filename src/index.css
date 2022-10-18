@@ -45,6 +45,7 @@ h1 {
   display: none;
   overflow: hidden;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -60,4 +61,32 @@ li {
 }
 html {
   font-size: 75%;
+}
+input {
+  width: 30rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 5rem;
+  font-size: 15px;
+  padding: 1rem;
+  text-transform: full-width;
+}
+textarea {
+  width: 30rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 5rem;
+  font-size: 15px;
+  padding: 1rem;
+}
+select {
+  width: 30rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 5rem;
+  font-size: 15px;
+  padding: 1rem;
 }

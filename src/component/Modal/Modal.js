@@ -1,22 +1,19 @@
 import React from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import "./SignInModal.css";
+import "./Modal.css";
 
-const SignInModal = ({ openForm, handleCancel }) => {
+const Modal = ({ openForm, handleCancel }) => {
   return (
     <div
       className={`modal-container ${openForm && "hidden"}`}
       onClick={() => handleCancel()}
-      // onScroll={() => handleCancel()}
+      onScroll={() => handleCancel()}
     >
       <div className="main-modal">
         <div className="modal-header">
           <h1>Sign In</h1>
-          <IoCloseCircleOutline
-            className="close-icon"
-            onClick={() => handleCancel()}
-          />
+          <IoCloseCircleOutline className="close-icon" />
         </div>
 
         <div className="input-filed">
@@ -31,15 +28,13 @@ const SignInModal = ({ openForm, handleCancel }) => {
           </label>
         </div>
       </div>
-      <div className="main-button-log-in">
-        <button className="button-log-in" type="submit">
-          Log In
-        </button>
+      <div className="button-log-in">
+        <button type="submit">Log In</button>
         <p>
           Don't Have an Account?{" "}
-          <Link to={"/userform"}>
+          <Link to={"/editform"}>
             {" "}
-            <span onClick={() => handleCancel()}>Register Here</span>
+            <span>Register Here</span>
           </Link>
         </p>
       </div>
@@ -47,4 +42,4 @@ const SignInModal = ({ openForm, handleCancel }) => {
   );
 };
 
-export default SignInModal;
+export default Modal;

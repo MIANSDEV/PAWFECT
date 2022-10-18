@@ -1,11 +1,13 @@
 import React from "react";
-import EditForm from "../component/EditForm/EditForm";
+//import EditForm from "../component/EditForm/EditForm";
+import NewAccountForm from "../component/NewAccountForm/NewAccountForm";
 
 const UserForm = () => {
   return (
-    <div>
-      <EditForm />
-    </div>
+    <>
+      {/* <EditForm /> */}
+      <NewAccountForm />
+    </>
   );
 };
 
